@@ -26,8 +26,8 @@ if torch.backends.cuda.math_sdp_enabled():
     enabled_backends.append("math")
 if torch.backends.cuda.mem_efficient_sdp_enabled():
     enabled_backends.append("mem_efficient")
-if torch.backends.cuda.cudnn_sdp_enabled():
-    enabled_backends.append("cudnn")
+if torch.backends.cuda.flash_sdp_enabled():
+    enabled_backends.append("flash")
 
 print("Currently enabled native sdp backends:", enabled_backends)
 

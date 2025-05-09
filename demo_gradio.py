@@ -348,8 +348,8 @@ def end_process():
 
 
 quick_prompts = [
-    'The girl dances gracefully, with clear movements, full of charm.',
-    'A character doing some simple body movements.',
+    'A terrifying demon bear with glowing red eyes and black molten fur.',
+    'A person in casual hip-hop streetwear dancing a cool hip-hop routine, grooving with high energy, smooth footwork, expressive arms, urban vibe, realistic movement, front camera view, background stays static',
 ]
 quick_prompts = [[x] for x in quick_prompts]
 
